@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+
+[user]
+    name = wangyu
+    email = 451336451@qq.com
+[gui]
+	wmstate = normal
+	geometry = 841x633+491+278 189 218
