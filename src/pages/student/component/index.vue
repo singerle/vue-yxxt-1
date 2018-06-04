@@ -1,5 +1,5 @@
 <template>
-    <div>student</div>
+    <div>student{{number}}</div>
 </template>
 
 <script type="ecmascript-6">
@@ -7,6 +7,7 @@ export default {
   name: '',
   data () {
     return {
+    	number:'迎新系统'
     }
   }
 }
