@@ -1,6 +1,6 @@
 # vue_yxtj
 
-> 迎新统计vue多页应用(pc&移动端)
+> 迎新系统(pc&移动端)
 
 ## Build Setup
 

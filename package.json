@@ -11,13 +11,17 @@
   },
   "dependencies": {
     "axios": "^0.16.2",
+    "better-scroll": "^0.4.0",
+    "css-loader": "^0.28.11",
+    "echarts": "^3.6.1",
     "glob": "^7.1.2",
     "vue": "^2.3.3",
     "vue-router": "^2.6.0",
+    "vue-style-loader": "^3.1.2",
     "vue-swipe": "^2.0.3",
-    "echarts": "^3.6.1",
-    "better-scroll": "^0.4.0",
-    "vuex": "^2.3.1"
+    "vuex": "^2.3.1",
+    "stylus": "0.52.4",
+    "stylus-loader": "^3.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

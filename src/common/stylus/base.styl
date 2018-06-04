@@ -1,0 +1,124 @@
+@import "variable.styl"
+
+body, html
+  line-height: 1
+  font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback'
+  user-select: none
+  -webkit-tap-highlight-color: transparent
+  background: $color-background
+  color: $color-font-text
+  height: 100%
+// 浮动
+.fl
+  float: left
+.fr
+	float: right
+ //清除浮动 
+.clearAll
+  clear: both 
+//外边距
+.mt2
+  margin-top: 0.02rem
+.mt5
+  margin-top: 0.05rem
+.mt8
+  margin-top: 0.08rem
+.mt10
+  margin-top: .1rem
+.mt25
+  margin-top: .25rem
+.mr5
+  margin-right: 0.05rem  
+.mr8
+  margin-right: 0.08rem
+.mr12
+	margin-right: .12rem
+.ml5
+   margin-left: 0.05rem
+.ml8
+  margin-left: 0.08rem 
+.ml10
+  margin-left: .1rem
+.ml15
+  margin-left: .15rem
+.ml23
+  margin-left: .23rem
+.ml30
+  margin-left: .3rem
+.ml40
+  margin-left: .4rem
+.ml60
+  margin-left: .6rem
+.mb5
+  margin-bottom: 0.05rem
+.mb8
+  margin-bottom: 0.08rem
+.mb10
+  margin-bottom: .1rem
+.mb20
+  margin-bottom: .2rem
+.mb40
+  margin-bottom: .4rem
+//内边距
+.pb10
+  padding-bottom: .1rem
+.pr8
+  padding-right: 0.08rem
+.pl15
+  padding-left: .15rem
+.pl20
+  padding-left: .20rem
+.pr15
+  padding-right: .15rem
+//字体大小
+.ft-15
+  font-size: 15px
+.ft-10
+  font-size: 10px
+.ft-11
+  font-size: 11px
+.ft-12
+  font-size: 12px
+.ft-13
+  font-size: 13px
+.ft-14
+  font-size: 14px
+.ft-20
+  font-size: 20px
+.ft-bold
+  font-weight: bold
+//字体颜色-灰色（描述性文字）
+.my-color-gray
+  color: $color-font-Notes!important
+//字体默认色
+.my-color-default
+  color: $color-font-text!important
+.my-bg-gray
+  background: $color-background-d!important
+.my-bg-white
+  background: $color-background
+.my-bg-red
+  background: red!important
+//边线
+.bdr
+  border-right: 1px solid $color-border
+.bdr1
+  border-right: 1px solid $color-font-text
+//重写mint-ui样式
+.my-tabbar
+  background: $color-background-d
+.myTab_container
+  background: $color-background-d!important
+.mint-tab-item-icon > *
+  height: 100%
+  width: auto!important
+//文本位置
+.textCenter
+  text-align: center
+.textLeft
+  text-align: left
+//超出隐藏
+  .overhidden
+    overflow: hidden
+    text-overflow: ellipsis
+    white-space: nowrap
