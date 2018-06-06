@@ -10,4 +10,7 @@ export default {
 }
 </script>
 <style scoped lang="stylus" rel="stylesheet/stylus">
+	html
+		font-size:100px;
+
 </style>

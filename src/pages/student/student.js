@@ -5,6 +5,8 @@ import Vuex from 'vuex'
 import App from './App'
 import router from '@/router/routesStu'
 import '@/common/stylus/index.styl'
+import { Popup } from 'mint-ui';
+Vue.component(Popup.name, Popup);
 Vue.use(Vuex)
 
 Vue.config.productionTip = false
