@@ -1,29 +1,34 @@
 <!-- 入学准备-完善信息 -->
 <template>
 	<div class="bgcolor">
-		
 		<div class="first">
-			<div class="school">
-				<p><span>QQ/微信</span><input></input></p>
-				<p><span>电子邮箱</span><span>暂无数据</span></p>
+			<div class="lxfs">
+				<p><span>QQ/微信</span><input placeholder="w415976612"></input><span></span></p>
+				<p><span>电子邮箱</span><input placeholder="415976612@qq.com"></input><span></span></p>
 			</div>
 		</div>
 		<div class="second">
-			<div class="room">
-				<p><span>寝室名称</span><span>暂无数据</span></p>
-				<p><span>寝室性别</span><span>男</span></p>
-				<p><span>床位号</span><span>暂无数据</span></p>
-				<p><span>收费标准</span><span>暂无数据</span></p>
+			<div class="content">
+				<p><span>何时入党团</span><span>2015年6月12日</span></p>
+				<p><span>健康状况</span><span>健康</span></p>
+				<p><span>血型</span><span>O型</span></p>
+				<p><span>户口性质</span><span>城镇户口</span></p>
+				<p><span>户口所在地</span><span>重庆市沙坪坝区</span></p>
+				<p><span>籍贯</span><span>重庆</span></p>
 			</div>
+		</div>
+		<div class="nextpage">
+			<mt-button size="large" type="primary">下一页</mt-button>
 		</div>
 	</div>
 </template>
+
 <script>
 	export default{
 		name:'',
 		data(){
 			return {
-				popupVisible:true,
+				
 			}
 		}
 	}
@@ -39,7 +44,7 @@
 		.first
 			border-top:0.01rem solid #e9e9e9
 			margin-bottom:0.1rem
-			.school
+			.lxfs //联系方式
 				padding:0 0.12rem
 				background:#fff
 				p
@@ -50,15 +55,20 @@
 					line-height:0.44rem
 					display:flex
 					justify-content:space-between
-					
-					span:last-child
+					align-items:center
+					input
+						outline:none
 						font-size:0.14rem
 						font-family:PingFang-SC-Medium
-						color:#999
+						color:#555
+					span:last-child
+						width:0.18rem
+						height:0.18rem
+						background:url(../../../../static/student-index-pictures/delete-hui.png)
 				p:last-child
 					border-bottom:0
 		.second
-			.room
+			.content
 				padding:0 0.12rem
 				background:#fff
 				p
@@ -69,11 +79,15 @@
 					line-height:0.44rem
 					display:flex
 					justify-content:space-between
-					
+					background:url(../../../../static/student-index-pictures/more.png) right center no-repeat 
 					span:last-child
 						font-size:0.14rem
 						font-family:PingFang-SC-Medium
-						color:#999
+						color:#333
+						margin-right:0.15rem
 				p:last-child
 					border-bottom:0
+		.nextpage
+			padding:0 0.12rem
+			margin-top:0.2rem
 </style>

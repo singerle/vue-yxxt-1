@@ -24,7 +24,10 @@ import rxzb from 'student/component/rxzb'
 import mycode from 'student/component/mycode'
 import myinfo from 'student/component/myinfo'
 import szqs from 'student/component/szqs'
-
+import wsxx2 from 'student/component/rxzb-wsxx2'
+import wsxx3 from 'student/component/rxzb-wsxx3'
+import noticeDetail from 'student/component/notice-detail'
+import noticeList from 'student/component/notice-list'
 
 Vue.use(Router)
 
@@ -33,7 +36,12 @@ export default new Router({
   {path:'/mycode',name:'mycode',component: mycode,meta:{title:"显示个人身份码"}},
   {path:'/myinfo',name:'myinfo',component: myinfo,meta:{title:"学生个人信息页面"}},
   {path:'/szqs',name:'szqs',component: szqs,meta:{title:"所在寝室"}},
-  {path:'/xcbdPopup',name:'xcbdPopup',component: xcbdPopup,meta:{title:"t弹出二维码"}},
+  {path:'/xcbdPopup',name:'xcbdPopup',component: xcbdPopup,meta:{title:"弹出二维码"}},
+  {path:'/wsxx2',name:'wsxx2',component: wsxx2,meta:{title:"完善信息-亲属信息"}},
+  {path:'/wsxx3',name:'wsxx3',component: wsxx3,meta:{title:"完善信息-曾读学校"}},
+  {path:'/jxsj',name:'jxsj',component: jxsj,meta:{title:"军训时间测试"}},
+  {path:'/noticeDetail',name:'noticeDetail',component: noticeDetail,meta:{title:"通知公告详情页"}},
+  {path:'/noticeList',name:'noticeList',component: noticeList,meta:{title:"通知公告列表页"}},
     {
     	path: '/index',
     	name:'index', 

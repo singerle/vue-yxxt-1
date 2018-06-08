@@ -1,8 +1,8 @@
 <template>
-<!--报道流程-军旅生涯-军训时间页面 -->
+<!--通知公告-通知公告列表页-内容详情页 -->
 <div class="bgcolor">
-  	<div class="jlsy-jxsj">
-	  	<h3>军训时间</h3>
+  	<div class="notice-detail">
+	  	<h3>英语四级考试咨询</h3>
 	  	<p class="shijian">
 	  		<span>
 	  			<span class="date">05-21</span>&nbsp;<span class="time">09:36</span>
@@ -26,7 +26,7 @@ export default {
 		top:0
 		bottom:0
 		background:#f7f7f7
-		.jlsy-jxsj
+		.notice-detail
 			padding:0 0.12rem
 			border-top:0.01rem solid #ECECEC
 			background:#fff
