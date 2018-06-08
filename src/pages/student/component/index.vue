@@ -1,5 +1,4 @@
 <template>
-	
     <div class="bgcolor">
     	<popup v-show="isshow" @event="cancelPopup"></popup>
     	<div class="header">
@@ -48,12 +47,11 @@
     			<p>报道流程</p>
     		</div>
     	</div>
-    </div>
-    
+    </div>   
 </template>
 
 <script type="ecmascript-6">
-import popup from "@/pages/student/component/popup.vue"
+import popup from "@/pages/student/component/common/popup.vue"
 export default {
   name: '',
   components:{popup},

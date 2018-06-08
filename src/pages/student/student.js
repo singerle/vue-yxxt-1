@@ -5,10 +5,10 @@ import Vuex from 'vuex'
 import App from './App'
 import router from '@/router/routesStu'
 import '@/common/stylus/index.styl'
-import { Popup } from 'mint-ui';
-Vue.component(Popup.name, Popup);
+import MintUI from 'mint-ui'
+import 'mint-ui/lib/style.css'
 Vue.use(Vuex)
-
+Vue.use(MintUI)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
